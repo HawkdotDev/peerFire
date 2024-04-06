@@ -1,1 +1,4 @@
 res://CharacterBody3D.gd
+res://world.tscn
+res://game.tscn
+res://start.tscn

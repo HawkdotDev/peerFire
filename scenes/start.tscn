@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://bfji6nkhydp2o"]
+
+[ext_resource type="Script" path="res://scripts/CharacterBody3D.gd" id="1_243s7"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_hsfu5"]
+
+[node name="World" type="Node3D"]
+
+[node name="GridMap" type="GridMap" parent="."]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.766796, 0.641891, 0, -0.548516, 0.655251, 0.5194, 0.333398, -0.398273, 0.854531, 0, 3.26427, 0)
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+script = ExtResource("1_243s7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+shape = SubResource("CapsuleShape3D_hsfu5")
+
+[node name="mainCamera" type="Camera3D" parent="CharacterBody3D"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.634786, 0)
