@@ -31,9 +31,9 @@ To get started with PeerFire, follow these steps:
 We welcome contributions from the community! If you'd like to contribute to PeerFire, please follow these guidelines:
 
 - Fork the repository.
-- Create a new branch (`git checkout -b feature/improvement`).
-- Make your changes and commit them (`git commit -am 'Add new feature'`).
-- Push your changes to your fork (`git push origin feature/improvement`).
+- Create a new branch `git checkout -b feature/improvement`
+- Make your changes and commit them `git commit -am 'Add new feature'`
+- Push your changes to your fork `git push origin feature/improvement`
 - Create a new Pull Request.
 
 ## Feedback and Support
